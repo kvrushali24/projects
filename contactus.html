@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message</title>
+    <style>
+        body{
+            background-image: url("r1.jfif");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        form{
+            color: azure;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            border: 2px solid azure;
+            outline: azure 10px;
+            margin: auto;  
+            padding: 20px;
+            width: 700px;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <form name="myForm" action="home.html">
+        <p>Name:<input type="text" name="name" required></p>
+        <p>Message:<textarea name="message" id="message" cols="70" rows="5" required></textarea></p>
+        <button type="submit" onclick="alert('Thank You!')">Submit</button>
+    </form> 
+</body>
+</html>
